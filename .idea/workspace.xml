@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2a92d17-30ee-4f4a-ab12-4a79159b2069" name="Default Changelist" comment="Content added for Tamu, also images added">
+    <list default="true" id="f2a92d17-30ee-4f4a-ab12-4a79159b2069" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Kaspas.html" beforeDir="false" afterPath="$PROJECT_DIR$/Kaspas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tamu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tamu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IceStone.html" beforeDir="false" afterPath="$PROJECT_DIR$/IceStone.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Kaspas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+            <state relative-caret-position="192">
+              <caret line="48" column="104" selection-start-line="48" selection-start-column="104" selection-end-line="48" selection-end-column="104" />
             </state>
           </provider>
         </entry>
@@ -48,16 +47,16 @@
         <entry file="file://$PROJECT_DIR$/Creams.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+              <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/IceStone.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+            <state relative-caret-position="1173">
+              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -90,10 +89,10 @@
         <option value="$PROJECT_DIR$/sheet1.css" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Creams.html" />
-        <option value="$PROJECT_DIR$/IceStone.html" />
         <option value="$PROJECT_DIR$/Tamu.html" />
         <option value="$PROJECT_DIR$/Kaspas.html" />
+        <option value="$PROJECT_DIR$/Creams.html" />
+        <option value="$PROJECT_DIR$/IceStone.html" />
       </list>
     </option>
   </component>
@@ -173,7 +172,7 @@
       <workItem from="1549920748106" duration="1240000" />
       <workItem from="1550005784847" duration="40000" />
       <workItem from="1550346796740" duration="157000" />
-      <workItem from="1551627991514" duration="15022000" />
+      <workItem from="1551627991514" duration="18852000" />
     </task>
     <task id="LOCAL-00001" summary="Created CSS stylesheet 1">
       <created>1549920883535</created>
@@ -238,11 +237,25 @@
       <option name="project" value="LOCAL" />
       <updated>1551648406256</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Content added for Kaspas">
+      <created>1551650148099</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1551650148099</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Content added for Creams">
+      <created>1551653354043</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1551653354043</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16459000" />
+    <option name="totallyTimeSpent" value="20289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="846" extended-state="6" />
@@ -316,7 +329,9 @@
     <MESSAGE value="Commit test" />
     <MESSAGE value="Content added for index.html. Basic template added to each webpage" />
     <MESSAGE value="Content added for Tamu, also images added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Content added for Tamu, also images added" />
+    <MESSAGE value="Content added for Kaspas" />
+    <MESSAGE value="Content added for Creams" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content added for Creams" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Images/Logo.PNG">
@@ -326,20 +341,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Creams.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IceStone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -359,8 +360,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Kaspas.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="66" column="18" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+        <state relative-caret-position="192">
+          <caret line="48" column="104" selection-start-line="48" selection-start-column="104" selection-end-line="48" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Creams.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IceStone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
         </state>
       </provider>
     </entry>
