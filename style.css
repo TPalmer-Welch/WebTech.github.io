@@ -2,23 +2,28 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Arial', 'serif';
+    background-image: url('Images/Background.png');
 }
 
 .navBar{
-    background-color: #494949;
+    margin: 0;
+    background: rgba(89, 89, 89, 0.85);
+    font-family: "Courier New", "monospace";
+    font-size: 24px;
     color: #ffffff;
     list-style: none;
     text-align: center;
-    padding: 15px 0 15px 0;
+    padding: 25px 0 25px 0;
 }
 
 .navBar > li{
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 60px;
     vertical-align: middle;
+    list-style: none;
 }
 
-.navBar > li > a{
+a.navBarPages{
     text-decoration: none;
     color: #ffffff;
 }
@@ -28,7 +33,9 @@ body{
     text-decoration: underline;
 }
 
-img.logoSize{
-    width: 75px;
-    height: 75px;
+a.DessertedPage{
+    color: #ffffff;
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: underline;
 }
