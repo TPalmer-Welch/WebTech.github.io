@@ -4,13 +4,13 @@ body{
     margin-top: 0 ;
     margin-left: 100px;
     margin-right: 100px;
-    background-image: url("SlateBackground.jpg");
+    background-image: url("Images/SquareICB70.png");
     font-family: 'Pacifico', cursive;
 }
 
 .navBar{
     position: relative;
-    background-color: gray;
+    background-color: beige;
     overflow: hidden;
     top: 0;
     padding-top: 20px;
@@ -18,7 +18,7 @@ body{
 }
 
 .navBar a{
-    color: white;
+    color: firebrick;
     text-align: center;
     text-decoration: none;
     font-size: 30px;
@@ -73,6 +73,7 @@ body{
     width: 400px;
     height: 368px;
     font-size: 20px;
+    box-shadow: 10px 10px 5px grey;
 
 }
 
