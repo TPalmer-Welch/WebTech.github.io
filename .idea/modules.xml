@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/SideBySide.iml" filepath="$PROJECT_DIR$/.idea/SideBySide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WebTech.iml" filepath="$PROJECT_DIR$/.idea/WebTech.iml" />
     </modules>
   </component>
 </project>
