@@ -3,31 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Home - Desserted</title>
-    <link rel="shortcut icon" type="image/x-icon" href="Cookie.ico" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Cookie.ico" />
+
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "JavaScript/Maps.js"></script>
+    <script src = "JavaScript/Dynamic.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo:200" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 
 <body>
 
-<div class = "navBar">
-
-    <div class = "navBarCenter">
-        <a href="index.html">Home</a>
-    </div>
-
-    <div class = "navBarLeft">
-        <a href="Tamu.html">Tamu</a>
-        <a href="Kaspas.html">Kaspa's</a>
-    </div>
-
-    <div class = "navBarRight">
-        <a href="Creams.html">Creams</a>
-        <a href="IceStone.html">IceStone Gelato</a>
-    </div>
-
+<div class="topNav" id="navBar">
+    <a href="index.html" class="active">Home</a>
+    <a href="Tamu.html">Tamu</a>
+    <a href="Kaspas.html">Kaspa's</a>
+    <a href="Creams.html">Creams</a>
+    <a href="IceStone.html">IceStone</a>
+    <a href = "javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 
 <div class = "contentGrid">
@@ -36,7 +39,7 @@
         <img src = "Images/DessertedLogoRed.png" alt = "Desserted Logo" />
     </div>
 
-    <div class = "plate plate1">
+    <div class = "plate cookieDough">
         <h2>Cookie Dough</h2>
         <p class = "paraText" >
             Some might define this category as 'Biscuit Mix', but no one really calls Cookie Dough 'Biscuit Mix'.
@@ -50,7 +53,7 @@
         <img src = "Images/IceCreamCartoon.png" alt = "Cartoon Sundae" />
     </div>
 
-    <div class = "plate plate2">
+    <div class = "plate insta">
         <h2>Instagrammability</h2>
         <p class = "paraText" >
             Some might define this category as 'Appearance' or 'Presentation', but those words exist in a
@@ -62,7 +65,7 @@
         </p>
     </div>
 
-    <div class = "plate plate3">
+    <div class = "plate rain">
         <h2>Make it Rain</h2>
         <p class = "paraText" >
             Some might define this category as 'Cost' or maybe even 'Value for Money', but again, at Desserted
@@ -82,7 +85,7 @@
             marking scheme for each parlour's examination.</p>
     </div>
 
-    <div class = "plate plate4">
+    <div class = "plate shakes">
         <h2>Shakes</h2>
         <p class = "paraText" >
             Some might define this category as 'Milkshakes' or 'Sip it Slowly to Stop Brainfreeze', but in the
@@ -92,7 +95,7 @@
         </p>
     </div>
 
-    <div class = "plate plate5">
+    <div class = "plate fengShui">
         <h2>Feng Shui</h2>
         <p class = "paraText" >
             Some might define this category as 'Internal Design' or 'Inside' but these aren't dramatic enough to

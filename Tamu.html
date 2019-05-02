@@ -3,33 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Tamu - Desserted</title>
-    <link rel="shortcut icon" type="image/x-icon" href="Cookie.ico" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Cookie.ico" />
+
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "JavaScript/Maps.js"></script>
+    <script src = "JavaScript/Dynamic.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo:200" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<div class = "navBar">
-
-    <div class = "navBarCenter">
-        <a href="index.html">Home</a>
-    </div>
-
-
-    <div class = "navBarLeft">
-        <a href="Tamu.html">Tamu</a>
-        <a href="Kaspas.html">Kaspa's</a>
-    </div>
-
-
-    <div class = "navBarRight">
-        <a href="Creams.html">Creams</a>
-        <a href="IceStone.html">IceStone Gelato</a>
-    </div>
-
+<div class="topNav" id="navBar">
+    <a href="index.html">Home</a>
+    <a href="Tamu.html" class = "active">Tamu</a>
+    <a href="Kaspas.html">Kaspa's</a>
+    <a href="Creams.html">Creams</a>
+    <a href="IceStone.html">IceStone</a>
+    <a href = "javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 
 <div class = "contentGrid">
@@ -38,18 +38,33 @@
         <img src = "Images/Tamu.jpg" alt="Tamu Logo" />
     </div>
 
-    <div class = "plate plate1">
+    <div class = "plate cookieDough">
         <h2>Instagrammability - 9/10</h2>
         <p class = "paraText" >
             If you clicked on the link in the Background Info above, you might have already seen this one coming. Tamu's
             desserts look good. Like really good.
     </div>
 
-    <div class = "image2">
-        <img src = "Images/TamuCookie.jpg" alt="Tamu Logo" />
+    <div class = "plate slideShow">
+
+        <div class = "imageShow">
+            <div class="mySlide fade">
+                <img src = "Images/TamuCookie.jpg" alt="Tamu Cookie Dough" />
+            </div>
+
+            <div class="mySlide fade">
+                <img src = "Images/TamuWaffles.jpg" alt="Tamu Waffles" />
+            </div>
+
+        </div>
+
+        <script>
+            showSlides();
+        </script>
+
     </div>
 
-    <div class = "plate plate2">
+    <div class = "plate insta">
         <h2>Make it Rain - 8/10</h2>
         <p class = "paraText" >
             Considering the quality and size of the goods at Tamu, their prices are very similar to their competitors, and
@@ -57,7 +72,7 @@
         </p>
     </div>
 
-    <div class = "plate plate3">
+    <div class = "plate rain">
         <h2>Cookie Dough - 10/10</h2>
         <p class = "paraText" >
             Heaven in an oven dish. Not only do they provide amazing Cookie Dough, for £1.50 you can 'Supersize It' and get
@@ -73,7 +88,7 @@
         </p>
     </div>
 
-    <div class = "plate plate4">
+    <div class = "plate shakes">
         <h2>Shakes - 8/10</h2>
         <p class = "paraText" >
             Although Tamu don't have a massive range of ice creams (the cliche ones mainly), it's the quality of their shakes
@@ -81,7 +96,7 @@
         </p>
     </div>
 
-    <div class = "plate plate5">
+    <div class = "plate fengShui">
         <h2>Feng Shui - 6/10</h2>
         <p class = "paraText" >
             No one can be perfect. Tamu looks good from the outside and smells almost sickeningly sweet from the inside,
@@ -90,9 +105,22 @@
         </p>
     </div>
 
-    <div class = "image3">
-        <img src = "Images/TamuWaffles.jpg" alt="Tamu Logo" />
+    <div class = "plate map">
+
+        <h2>Google Maps</h2>
+
+        <button onclick = "getLocation()">Press for current location: </button>
+
+        <p id = "showLoc"></p>
+
+        <div id = "googleMap">
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADhthH-LxAI6qK3QGqInbDcrB-NXDPt68&callback=tamuMap">
+            </script>
+        </div>
+
     </div>
+
 
 </div>
 

@@ -3,33 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Kaspa's - Desserted</title>
-    <link rel="shortcut icon" type="image/x-icon" href="Cookie.ico" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Cookie.ico" />
+
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "JavaScript/Maps.js"></script>
+    <script src = "JavaScript/Dynamic.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo:200" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<div class = "navBar">
-
-    <div class = "navBarCenter">
-        <a href="index.html">Home</a>
-    </div>
-
-
-    <div class = "navBarLeft">
-        <a href="Tamu.html">Tamu</a>
-        <a href="Kaspas.html">Kaspa's</a>
-    </div>
-
-
-    <div class = "navBarRight">
-        <a href="Creams.html">Creams</a>
-        <a href="IceStone.html">IceStone Gelato</a>
-    </div>
-
+<div class="topNav" id="navBar">
+    <a href="index.html">Home</a>
+    <a href="Tamu.html">Tamu</a>
+    <a href="Kaspas.html" class="active">Kaspa's</a>
+    <a href="Creams.html">Creams</a>
+    <a href="IceStone.html">IceStone</a>
+    <a href = "javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 
 <div class = "contentGrid">
@@ -38,7 +38,7 @@
         <img src = "Images/KaspasLogo.jpg" alt = "Kaspa's Logo">
     </div>
 
-    <div class = "plate plate1">
+    <div class = "plate cookieDough">
         <h2>Instagrammability - 10/10</h2>
         <p class = "paraText" >
             Searching for #kaspas on Instagram brings up 56.3k posts (March 2019). Thats a lot of posts. The decoration that comes with
@@ -46,12 +46,26 @@
         </p>
     </div>
 
-    <div class = "image2">
-        <img src = "Images/KaspasCookie.jpg" alt = "Kaspa's Cookie Dough">
+    <div class = "plate slideShow">
+
+        <div class = "imageShow">
+            <div class="mySlide fade">
+                <img src = "Images/KaspasCookie.jpg" alt="Kaspa's Cookie Dough" />
+            </div>
+
+            <div class="mySlide fade">
+                <img src = "Images/KaspasCake.jpg" alt="Kaspa's Cake" />
+            </div>
+
+        </div>
+
+        <script>
+            showSlides();
+        </script>
 
     </div>
 
-    <div class = "plate plate2">
+    <div class = "plate insta">
         <h2>Make it Rain - 7/10</h2>
         <p class = "paraText" >
             Kaspa's had slightly higher-end prices compared to the rest, despite having good food - it's not the best.
@@ -59,7 +73,7 @@
         </p>
     </div>
 
-    <div class = "plate plate3">
+    <div class = "plate rain">
         <h2>Cookie Dough - 7/10</h2>
         <p class = "paraText" >
             An average entry from Kaspa's here, they have more options to mess around with your Biscuit Mix, but I'd rather
@@ -77,7 +91,7 @@
         </p>
     </div>
 
-    <div class = "plate plate4">
+    <div class = "plate shakes">
         <h2>Shakes - 8/10</h2>
         <p class = "paraText" >
             A frankly remarkable selection of ice creams. This means you can have a wide variety of milkshakes. I haven't
@@ -85,7 +99,7 @@
         </p>
     </div>
 
-    <div class = "plate plate5">
+    <div class = "plate fengShui">
         <h2>Feng Shui - 9/10</h2>
         <p class = "paraText" >
             Kaspa's looks the part. Nothing says glam more than glittery black surfaces and pink upholstery. Not only is the
@@ -94,11 +108,24 @@
         </p>
     </div>
 
-    <div class = "image3">
-        <img src = "Images/KaspasCake.jpg" alt = "Kaspa's Cake">
+    <div class = "plate map">
+
+        <h2>Google Maps</h2>
+
+        <button onclick = "getLocation()">Press for current location: </button>
+
+        <p id = "showLoc"></p>
+
+        <div id = "googleMap">
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADhthH-LxAI6qK3QGqInbDcrB-NXDPt68&callback=kaspasMap">
+            </script>
+        </div>
+
     </div>
 
 </div>
 
 </body>
+
 </html>

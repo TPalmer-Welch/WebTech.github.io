@@ -3,33 +3,33 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Creams - Desserted</title>
-    <link rel="shortcut icon" type="image/x-icon" href="Cookie.ico" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="Images/Cookie.ico" />
+
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src = "JavaScript/Maps.js"></script>
+    <script src = "JavaScript/Dynamic.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Exo:200" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 
-<div class = "navBar">
-
-    <div class = "navBarCenter">
-        <a href="index.html">Home</a>
-    </div>
-
-
-    <div class = "navBarLeft">
-        <a href="Tamu.html">Tamu</a>
-        <a href="Kaspas.html">Kaspa's</a>
-    </div>
-
-
-    <div class = "navBarRight">
-        <a href="Creams.html">Creams</a>
-        <a href="IceStone.html">IceStone Gelato</a>
-    </div>
-
+<div class="topNav" id="navBar">
+    <a href="index.html">Home</a>
+    <a href="Tamu.html">Tamu</a>
+    <a href="Kaspas.html">Kaspa's</a>
+    <a href="Creams.html" class="active">Creams</a>
+    <a href="IceStone.html">IceStone</a>
+    <a href = "javascript:void(0);" class="icon" onclick="navFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
 </div>
 
 <div class = "contentGrid">
@@ -39,7 +39,7 @@
 
     </div>
 
-    <div class = "plate plate1">
+    <div class = "plate cookieDough">
         <h2>Instagrammability - 6/10</h2>
         <p class = "paraText" >
             Your order from Creams isn't photogenic. It feels as if it should be but it lacks pizzazz (yes that is a word,
@@ -47,12 +47,26 @@
         </p>
     </div>
 
-    <div class = "image2">
-        <img src = "Images/CreamsCookie.jpg" alt = "Creams' Cookie Dough">
+    <div class = "plate slideShow">
+
+        <div class = "imageShow">
+            <div class="mySlide fade">
+                <img src = "Images/CreamsCookie.jpg" alt="Creams' Cookie Dough" />
+            </div>
+
+            <div class="mySlide fade">
+                <img src = "Images/CreamsWaffle.jpg" alt="Creams' Waffle" />
+            </div>
+
+        </div>
+
+        <script>
+            showSlides();
+        </script>
 
     </div>
 
-    <div class = "plate plate2">
+    <div class = "plate insta">
         <h2>Make it Rain - 6/10</h2>
         <p class = "paraText" >
             "It's not the cheapest here, is it?", is never a great thing to here halfway through your Cookie Dough. It's
@@ -60,7 +74,7 @@
         </p>
     </div>
 
-    <div class = "plate plate3">
+    <div class = "plate rain">
         <h2>Cookie Dough - 5/10</h2>
         <p class = "paraText" >
             Creams and Cookie Dough are not a tasty combination. It's clear they've gone for bigger is better. The problem
@@ -79,7 +93,7 @@
         </p>
     </div>
 
-    <div class = "plate plate4">
+    <div class = "plate shakes">
         <h2>Shakes - 5/10</h2>
         <p class = "paraText" >
             As a naturally positive person, I'm (figuratively) a glass half full kinda guy. However, Creams managed to turn
@@ -87,7 +101,7 @@
         </p>
     </div>
 
-    <div class = "plate plate5">
+    <div class = "plate fengShui">
         <h2>Feng Shui - 8/10</h2>
         <p class = "paraText" >
             Creams have seemed to take their notebooks when trying out Kaspa's. A very similar colour scheme and layout with
@@ -96,11 +110,24 @@
         </p>
     </div>
 
-    <div class = "image3">
-        <img src = "Images/CreamsWaffle.jpg" alt = "Creams' Waffle">
+    <div class = "plate map">
+
+        <h2>Google Maps</h2>
+
+        <button onclick = "getLocation()">Press for current location: </button>
+
+        <p id = "showLoc"></p>
+
+        <div id = "googleMap">
+            <script async defer
+                    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyADhthH-LxAI6qK3QGqInbDcrB-NXDPt68&callback=creamsMap">
+            </script>
+        </div>
+
     </div>
 
 </div>
 
 </body>
+
 </html>
